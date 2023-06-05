@@ -17,11 +17,11 @@ Here you may make a visual inspection of processed dataset: both X and Y data ar
 Note: you need to make sure that raw dataset file is present at `data/processed` (true by default).
 
 # Folders
-### `raw`
-Here raw data taken right after FEM simulations are presented.
+### `input_parameter_generator`
+Here notebook for generating single input batch for FEM simulation is located. See details in `lognorm_generator/README.md`.
 
 ### `processed`
 Here you can find processed FEM simulation data. Convertion of raw data into processed one is performed by means of notebook `data_formatting.ipynb`.
 
-### `lognorm_generator`
-Here notebook for generating single input batch for FEM simulation is located. See details in `lognorm_generator/README.md`.
+### `raw`
+Here raw data taken right after FEM simulations are presented.
