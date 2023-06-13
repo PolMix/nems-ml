@@ -16,7 +16,7 @@ In `data/data_review.ipynb` input and output parameters distribution in processe
 
 # 4. Classic machine learning
 Models used:
-- `LinearRegressor`
+- `LinearRegressor` (for a baseline)
 - `RandomForestRegressor`
 - `TabNetRegressor` + `Optuna`
 - `XGBRegressor` + `Optuna`
