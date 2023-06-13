@@ -1,5 +1,5 @@
 # General info
-This work is devoted to numerical study of nanoelectromechanical systems (NEMS) by means of machine learning techniques. Read more about the aims of this work in file `thesis.pdf`.
+This work is devoted to numerical study of nanoelectromechanical systems (NEMS) by means of machine learning techniques.
 
 Milestones of the conducted work are listed below.
 
