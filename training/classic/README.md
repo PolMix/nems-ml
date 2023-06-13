@@ -11,8 +11,8 @@ Here `Random Forest Regressor`, `TabNet Regressor` and `XGBoost Regressor` are t
 ## Cross validation (`cross_validation.ipynb`)
 Here custom cross-validation is performed. Visualizations of metrics on all folds are obtained. See instructions in the notebook.
 
-### Optuna classic ml (`optuna_classic_ml.ipynb`)
+## Optuna classic ml (`optuna_classic_ml.ipynb`)
 Hyperparameter tuning of `Random Forest Regressor`, `TabNet Regressor` and `XGBoost Regressor` by means of `Optuna`.
 
-### Shap classic ml (`shap_classic_ml.ipynb`)
+## Shap classic ml (`shap_classic_ml.ipynb`)
 Explaining `XGBoost Regressor` model outputs by means of SHAP values.
