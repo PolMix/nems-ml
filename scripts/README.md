@@ -1,19 +1,19 @@
 Here you can find the scripts which are utilized in notebooks of this repostory.
 
-### `dataset_processing.py`
+## `dataset_processing.py`
 Functions for preprocessing raw dataset right after finite element method (FEM) simulations
 
-### `dataset_preprocessing_pandas.py`
+## `dataset_preprocessing_pandas.py`
 Functions for:
 - splitting data into training, validation and testing set of data
 - normalization of data sets
 
 These scripts are used both for classic and neural models.
 
-### `dataset_preprocessing_torch.py`
+## `dataset_preprocessing_torch.py`
 Class which initializes dataset object before constructing dataloaders. This method is used right after using scripts from `dataset_preprocessing_pandas.py`, only applied for neural models.
 
-### `classic_ml.py`
+## `classic_ml.py`
 Functions:
 1. Estimate of time elapsed by model calculations (`get_elapsed_time` and `get_elapsed_time_tabnet`)
 2. Calculation of MSE and R2 metrics for all output parameters (`calculate_metrics`)
@@ -26,7 +26,7 @@ Functions:
 Also contains `CustomCV` class which can be utilized for carrying out cross-validation that supports metrics calculations on all the folds and for all parameters. It has several functions for visualization purposes.
 
 
-### `neural_ml.py`
+## `neural_ml.py`
 Functions:
 1. Estimate of time elapsed by model calculations (`get_elapsed_time_mlp` - for MLP model, `get_elapsed_time_branched` - for BMLP model)
 2. Calculation of MSE and R2 metrics for all output parameters (`calculate_metrics_torch`). This is a basic function that is ubiquitously used in other functions in this file
