@@ -30,6 +30,5 @@ See details in `training/classic/README.md`.
 Models:
 - Fully Connected Networks with different architectures
 - Loss-wrapped neural network
-- Tandem of inverse and forward networks
 
 For details, see `training/neural/README.md`.
