@@ -6,7 +6,7 @@ Here you can find notebooks for the study of processed dataset by means of class
 3. if required you may change dataset downloaded in the beginning of notebooks (right afther library import)
 
 ## Classic ML (`classic_ml.ipynb`)
-Here `Random Forest Regressor`, `TabNet Regressor` and `XGBoost Regressor` are trained and compared by MSE and R2 metrics. Also, computation time is estimated. Finally, experimental device paratemeters are input into `XGBoost Regressor` obtaining relative error for resonant frequency (1st mode) calculation $\sim 2 \%$. Also, `Linear Regressor` is trained to show a baseline.
+Here `Random Forest Regressor`, `TabNet Regressor` and `XGBoost Regressor` are trained and compared by MSE and R2 metrics. Also, computation time is estimated. Finally, experimental device paratemeters are input into `XGBoost Regressor` obtaining relative error for resonant frequency (1st mode) calculation $\sim 2$%. Also, `Linear Regressor` is trained to show a baseline.
 
 ## Cross validation (`cross_validation.ipynb`)
 Here custom cross-validation is performed. Visualizations of metrics on all folds are obtained. See instructions in the notebook.
