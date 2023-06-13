@@ -3,9 +3,12 @@ Here you can find all data and notebooks conserning generating, processing and v
 
 # Notebooks
 ### `data_formatting.ipynb`
-This notebook concerns processing data frow raw format to a more convenient for machine learning one.
+This notebook concerns processing data frow raw format to a more convenient one for machine learning purposes.
 
-Note: you need to make sure that raw dataset file is present at `data/raw` (this is true by default).
+**How to use**:
+1. make sure that raw dataset file is present at `data/raw` (this is true by default).
+2. launch and follow the notebook
+3. if required you may change the path where you download your dataset from
 
 Options:
 - You can choose any dataset from `data/raw`. For this just replace the default name of raw dataset (`Dataset.txt` by default) with preferred name in the notebook
@@ -14,7 +17,9 @@ Options:
 ### `data_review.ipynb`
 Here you may make a visual inspection of processed dataset: both X and Y data are represented and visualized individually.
 
-Note: you need to make sure that raw dataset file is present at `data/processed` (true by default).
+**How to use**:
+1. make sure that raw dataset file is present at `data/processed` (true by default).
+2. launch and follow the notebook
 
 # Folders
 ### `input_parameter_generator`
